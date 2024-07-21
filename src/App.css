@@ -1,8 +1,13 @@
+body {
+  color: rgb(69, 13, 69);
+  background-color: beige
+}
 
 .navbar {
     display: flex;
     flex-direction:  row;
     list-style-type: none;
+    
 }
 
 .navbar li {
@@ -50,7 +55,7 @@ body, html {
 .about {
     text-align: center;
     font-size: 24px;
-    background-color: rgb(30, 61, 61);
+    background-color:beige;
     min-height: 100vh; 
     display: flex;
     justify-content: center;
@@ -60,10 +65,74 @@ body, html {
 .contact{
     text-align: center;
     font-size: 24px;
-    background-color: rgb(30, 61, 61);
+    background-color:beige;
     min-height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
   
+}
+
+/* Reset default margin and padding */
+body, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio {
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the portfolio on the page */
+  padding: 20px;
+  min-height: 100vh; 
+  max-width: 800px;
+  background-color: beige;
+}
+
+.portfolioName {
+  text-align: center;
+  font-size: 24px; /* Adjust font size */
+  color: #333; /* Adjust color */
+  margin-bottom: 20px; /* Space between title and projects */
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 20px; /* Gap between grid items */
+}
+
+.project {
+  width: 100%;
+  max-width: calc(50% - 10px); /* Half of the grid width minus gap */
+  margin-bottom: 20px; /* Space between projects */
+}
+
+.project img {
+  width: 100%; /* Make images fill their container */
+  height: auto;
+}
+
+.project-details {
+  padding: 10px;
+  background-color: #f0f0f0; /* Light background color for project details */
+}
+
+.project-details h3 {
+  font-size: 18px; /* Adjust heading font size */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.project-details p {
+  font-size: 14px; /* Adjust paragraph font size */
+  margin-top: 10px; /* Space above paragraphs */
+}
+
+.project-details a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin-right: 10px; /* Space between links */
+}
+
+.project-details a:hover {
+  text-decoration: underline; /* Underline links on hover */
 }

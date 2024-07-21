@@ -50,6 +50,11 @@ function App() {
                 <i className="fab fa-linkedin"></i> {/* LinkedIn icon */}
               </a>
             </li>
+             <li>
+        <a href="https://stackoverflow.com/users/26451099/user26451099" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-stack-overflow"></i> {/* Stack Overflow icon */}
+        </a>
+      </li>
           </ul>
         </p>
       </footer>
