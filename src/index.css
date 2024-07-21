@@ -1,9 +1,10 @@
 .resume {
     margin: 0; 
-    padding: 20px; 
+    padding: 100px; 
     text-align: center; 
     background-color: beige; 
-    min-height: 
+    min-height: 100vh; 
+   
   }
   
   .job {
