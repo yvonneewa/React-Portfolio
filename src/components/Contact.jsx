@@ -2,12 +2,11 @@ import React from 'react';
 
 function Contact() {
     const handleSubmit = (event) => {
-        event.preventDefault(); // Prevent default form submission
-        // Handle form submission logic here
-        // Example: You can access form data using event.target.elements
+        event.preventDefault(); 
     };
 
     return (
+        <div className='contact'>
         <div className="max-w-sm mx-auto">
             <h1>Contact Us</h1>
             <form onSubmit={handleSubmit} className="bg-gray-50 shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -56,6 +55,7 @@ function Contact() {
                     </button>
                 </div>
             </form>
+        </div>
         </div>
     );
 }
