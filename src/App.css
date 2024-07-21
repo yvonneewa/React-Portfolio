@@ -73,15 +73,15 @@ body, html {
   
 }
 
-/* Reset default margin and padding */
+
 body, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
 .portfolio {
-  max-width: 800px; /* Adjust width as needed */
-  margin: 0 auto; /* Center the portfolio on the page */
+  max-width: 800px; 
+  margin: 0 auto; 
   padding: 20px;
   min-height: 100vh; 
   max-width: 800px;
@@ -90,49 +90,57 @@ body, h2, h3, p {
 
 .portfolioName {
   text-align: center;
-  font-size: 24px; /* Adjust font size */
-  color: #333; /* Adjust color */
-  margin-bottom: 20px; /* Space between title and projects */
+  font-size: 24px;
+  color: #333; 
+  margin-bottom: 20px; 
 }
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-gap: 20px; /* Gap between grid items */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px; 
 }
 
 .project {
   width: 100%;
-  max-width: calc(50% - 10px); /* Half of the grid width minus gap */
-  margin-bottom: 20px; /* Space between projects */
+  max-width: calc(50% - 10px);
+  margin-bottom: 20px; 
 }
 
 .project img {
-  width: 100%; /* Make images fill their container */
+  width: 100%; 
   height: auto;
 }
 
 .project-details {
   padding: 10px;
-  background-color: #f0f0f0; /* Light background color for project details */
+  background-color: #f0f0f0; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
 }
 
 .project-details h3 {
-  font-size: 18px; /* Adjust heading font size */
-  margin-bottom: 10px; /* Space below heading */
+  font-size: 18px;
+  margin-bottom: 10px; 
 }
 
 .project-details p {
-  font-size: 14px; /* Adjust paragraph font size */
-  margin-top: 10px; /* Space above paragraphs */
+  font-size: 14px; 
+  margin-top: 10px; 
 }
 
 .project-details a {
-  color: #007bff; /* Link color */
-  text-decoration: none; /* Remove underline */
-  margin-right: 10px; /* Space between links */
+  color:white; 
+  text-decoration: none; 
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 3px;
+  display: block;
+  margin: 2px;
+  border-radius: 3px;
 }
 
 .project-details a:hover {
-  text-decoration: underline; /* Underline links on hover */
+  text-decoration: underline; 
 }
