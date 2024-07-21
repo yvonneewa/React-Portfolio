@@ -92,6 +92,8 @@ body, h2, h3, p {
   font-size: 24px;
   color: #333; 
   margin-bottom: 20px; 
+  padding-left: 40px;
+  padding-right: 200px;
 }
 
 .projects {
