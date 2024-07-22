@@ -67,6 +67,10 @@ Open http://localhost:3000 to view it in the browser.
 
 ![alt text](image-3.png)
 
+## Live site
+
+https://peaceful-souffle-259ab0.netlify.app 
+
 ## License
  MIT License 
 
