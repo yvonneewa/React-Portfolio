@@ -1,5 +1,9 @@
 import "./App.css";
 import { Outlet } from "react-router-dom";
+import About from './components/About'; 
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 
 function App() {
