@@ -4,37 +4,37 @@ import '../index.css';
 const projects = [
   {
     title: 'PWA challenge',
-    imageSrc: './src/images/computer17.png',
+    imageSrc: '/images/computer17.png',
     deployedLink: 'https://pwa-challenge-text-editor.onrender.com/',
     githubLink: 'https://github.com/yvonneewa/PWA-Challenge-Text-Editor'
   },
   {
     title: 'MCV challenge',
-    imageSrc: './src/images/computer16.jpg',
+    imageSrc: '/images/computer16.jpg',
     deployedLink: 'https://mvc-challenge-tech-blog-12jv.onrender.com/',
     githubLink: 'https://github.com/yvonneewa/MVC-Challenge-Tech-Blog'
   },
   {
     title: 'NoSql Challenge',
-    imageSrc: './src/images/computer15.jpg',
+    imageSrc: '/images/computer15.jpg',
     VideoWalkthrough: 'https://drive.google.com/file/d/1ArQQsEV22DbpJ7dd4p88QIuqxXj-htSC/view',
     githubLink: 'https://github.com/yvonneewa/NoSQL-Social-Network-API'
   },
   {
     title: 'ORM Challenge',
-    imageSrc: './src/images/computer19.jpg',
+    imageSrc: '/images/computer19.jpg',
     VideoWalkthrough: 'https://app.screencastify.com/v3/watch/EPuasD2S821kz0h27OT8',
     githubLink: 'https://github.com/yvonneewa/ORM-Challenge'
   },
   {
     title: 'NoteTaker App',
-    imageSrc: './src/images/computer18.jpg',
+    imageSrc: '/images/computer18.jpg',
     deployedLink: 'https://note-taker-challenge-mt8b.onrender.com/',
     githubLink: 'https://github.com/yvonneewa/Note-Taker-challenge'
   },
   {
     title: 'Taskbar App',
-    imageSrc: './src/images/computer22.jpg', 
+    imageSrc: '/images/computer22.jpg', 
     deployedLink: 'https://yvonneewa.github.io/taskbar-challenge/',
     githubLink: 'https://github.com/yvonneewa/taskbar-challenge'
   }
