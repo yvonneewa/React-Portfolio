@@ -77,3 +77,6 @@ https://peaceful-souffle-259ab0.netlify.app
 ## Contact
 
 GitHub: [Your GitHub Profile](https://github.com/yvonneewa)
+
+## references
+xpert, activities from class, google
