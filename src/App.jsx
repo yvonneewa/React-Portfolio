@@ -13,6 +13,7 @@ function App() {
         <nav className="container mx-auto flex justify-between items-center">
           <div className="logo">Yvonnes Portfolio</div>
           <ul className="flex items-center">
+          
             <li className="mr-6">
               <a href="/" className="text-gray-700 hover:text-gray-900">
                 About Me
